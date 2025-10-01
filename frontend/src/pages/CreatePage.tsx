@@ -12,7 +12,7 @@ const CreatePage = () => {
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault(); // Prevent default form submission
         const toAdd: Item = {
-            name: e.currentTarget.name.value,
+            name: e.currentTarget.name,
             price: parseFloat(e.currentTarget.price.value),
             image: e.currentTarget.image.value,
         };

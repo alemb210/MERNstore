@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from controller.controller import ItemController
+from controller.item_controller import ItemController
 from models.item import Item
 
 router = APIRouter()
